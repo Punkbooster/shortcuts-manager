@@ -23,4 +23,4 @@
 ### CI/CD and Hosting:
 
 * **Github Actions:** For creating CI/CD pipelines.
-* **DigitalOcean:** For hosting the application via a Docker image.
+* **VPS:** For hosting the application via a Docker image.
