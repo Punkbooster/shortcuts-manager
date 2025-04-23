@@ -88,6 +88,10 @@ create trigger update_shortcuts_updated_at
     for each row
     execute function update_updated_at_column();
 
+-- DISABLE ALL RLS POLICIES FOR NOW
+-- Uncomment these sections when ready to implement authentication
+
+/*
 -- RLS Policies
 
 -- Applications policies
@@ -169,3 +173,4 @@ create policy "Group shortcuts are deletable by group owner"
             and sg.user_id = auth.uid()
         )
     );
+*/
